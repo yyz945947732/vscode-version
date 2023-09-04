@@ -8,7 +8,7 @@
     "vscode": "^1.81.0"
   },
   "scripts": {
-    "publish": "npx vsce publish --githubBranch main"
+    "publish": "npx vsce publish --githubBranch master"
   },
   "categories": [
     "Programming Languages"
