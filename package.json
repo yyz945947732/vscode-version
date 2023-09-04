@@ -1,0 +1,35 @@
+{
+  "name": "version-highlight",
+  "displayName": "VERSION",
+  "description": "Syntax highlight for VERSION files",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "version",
+        "aliases": [
+          "version",
+          "Version",
+          "VERSION"
+        ],
+        "filenames": [
+          "VERSION"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "version",
+        "scopeName": "text.version",
+        "path": "./syntaxes/version.tmLanguage.json"
+      }
+    ]
+  }
+}

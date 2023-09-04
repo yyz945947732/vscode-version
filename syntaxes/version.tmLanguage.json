@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "version",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.version",
+					"match": "**"
+				}
+			]
+		}
+	},
+	"scopeName": "text.version"
+}
