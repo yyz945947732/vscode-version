@@ -3,8 +3,12 @@
   "displayName": "VERSION",
   "description": "Syntax highlight for VERSION files",
   "version": "0.0.1",
+  "publisher": "yaoyuanzhang",
   "engines": {
     "vscode": "^1.81.0"
+  },
+  "scripts": {
+    "publish": "npx vsce publish --githubBranch main"
   },
   "categories": [
     "Programming Languages"
