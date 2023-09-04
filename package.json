@@ -4,7 +4,7 @@
   "description": "Syntax highlight for VERSION files",
   "version": "1.0.0",
   "publisher": "yaoyuanzhang",
-  "icon": "icon.png",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.81.0"
   },
