@@ -2,7 +2,7 @@
   "name": "version-highlight",
   "displayName": "VERSION",
   "description": "Syntax highlight for VERSION files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "yaoyuanzhang",
   "icon": "images/logo.png",
   "engines": {
