@@ -22,12 +22,14 @@
       {
         "id": "version",
         "aliases": [
-          "version",
-          "Version",
-          "VERSION"
+          "VERSION",
+          "Version"
         ],
         "filenames": [
           "VERSION"
+        ],
+        "filenamePatterns": [
+          "VERSION.**"
         ],
         "configuration": "./language-configuration.json"
       }

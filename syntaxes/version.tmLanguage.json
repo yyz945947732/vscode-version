@@ -11,7 +11,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.version",
-					"match": "**"
+					"match": "(.*)"
 				}
 			]
 		}
