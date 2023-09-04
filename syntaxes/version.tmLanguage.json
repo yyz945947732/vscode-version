@@ -1,20 +1,42 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "version",
-	"patterns": [
-		{
-			"include": "#keywords"
-		}
-	],
-	"repository": {
-		"keywords": {
-			"patterns": [
-				{
-					"name": "keyword.control.version",
-					"match": "(.*)"
-				}
-			]
-		}
-	},
-	"scopeName": "text.version"
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "version",
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#versions"
+    },
+    {
+      "include": "#env"
+    }
+  ],
+  "repository": {
+    "versions": {
+      "patterns": [
+        {
+          "name": "entity.name.function.version",
+          "match": "[a-zA-Z]"
+        }
+      ]
+    },
+    "env": {
+      "patterns": [
+        {
+          "name": "keyword.control.version",
+          "match": "[0-9.]"
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "entity.name.class.env",
+          "match": "-"
+        }
+      ]
+    }
+  },
+  "scopeName": "text.version"
 }
