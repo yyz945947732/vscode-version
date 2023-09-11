@@ -14,7 +14,7 @@ Search `VERSION` on the [VS Code Marketplace](https://marketplace.visualstudio.c
 
 ## Usage
 
-Currently, this extension support VERSION.*** files.
+Currently, this extension support VERSION files.
 
 ## License
 
