@@ -3,6 +3,7 @@
 ## 1.0.3
 
 - Support .VERSION file
+
 ## 1.0.2
 
 - Add icon for VERSION.** file
